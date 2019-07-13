@@ -5,17 +5,17 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "/gentape/assets/icon-192x192.png",
+      "src": "/assets/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/gentape/assets/icon-512x512.png",
+      "src": "/assets/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/gentape",
+  "start_url": "/",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
   "display": "standalone"
