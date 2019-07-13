@@ -1,7 +1,7 @@
 title: Gentape
 description: Endless generative music. Made with <a href="https://github.com/meleyal/gen">Gen.js</a>
-baseurl: "gentape"
-url: "https://meleyal.com"
+baseurl: "/gentape"
+# url: "https://meleyal.com"
 markdown: kramdown
 collections:
   tapes:
