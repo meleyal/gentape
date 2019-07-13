@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div
+  class="d-flex justify-content-center align-items-center"
+  style="height: 100vh;"
+>
+  <div class="card" style="width: 400px; margin-top: -30px;">
+    <div
+      class="card-header align-items-center d-flex"
+      style="background: {{ page.color }};"
+    >
+      <strong>{{ page.title }}</strong>
+      <small class="ml-1 mt-1">
+        by
+        <a href="{{ page.author_url }}">{{ page.author }}</a>
+      </small>
+      <a class="ml-auto" href="{{ site.url }}">
+        <small>{{ site.title }}</small></a
+      >
+    </div>
+  </div>
+</div>
+
+{{ page.content }}
